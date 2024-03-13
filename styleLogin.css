@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    background-color: blueviolet;
+}
+
+.login{
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 62%;
+    padding: 20px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+.login h1{
+    color: blue;
+    text-align: center;
+}
+
+.container{
+    margin-top: 50px;
+}
+.login label{
+    font-size: 15px;
+    font-weight: 600;
+}
+.login input{
+    padding: 10px;
+    width: 80%;
+    margin: 5px;
+}
+.login p a{
+    position: relative;
+    top: 8px;
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+.login p a:hover{
+    color: rgb(34, 100, 207);
+}
+.login button{
+    background-color: rgb(48, 105, 196);
+    color: white;
+    padding: 15px;
+    width: 90%;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    border: none;
+    margin-top: 40px;
+}
+.login button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+.footer p,a{
+    display: inline;
+}
+.footer a{
+    color: red;
+    font-weight: 600;
+}
+.footer{
+    margin-top: 20px;
+    text-align: center;
+}
+/* Registration Style*/
+.Registration{
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 88%;
+    padding: 20px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+/* demo*/
+.Registration h1{
+    color: blue;
+    text-align: center;
+}
+
+.container{
+    margin-top: 50px;
+}
+.Registration label{
+    font-size: 15px;
+    font-weight: 600;
+}
+.Registration input{
+    padding: 10px;
+    width: 80%;
+    margin: 5px;
+}
+.Registration p a{
+    position: relative;
+    top: 8px;
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+.Registration p a:hover{
+    color: rgb(34, 100, 207);
+}
+.Registration button{
+    background-color: rgb(48, 105, 196);
+    color: white;
+    padding: 15px;
+    width: 90%;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    border: none;
+    margin-top: 40px;
+}
+.Registration button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+.footer p,a{
+    display: inline;
+}
+.footer a{
+    color: red;
+    font-weight: 600;
+}
+.footer{
+    margin-top: 20px;
+    text-align: center;
+}
+/* Back Btn*/
+#back-btn{
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 22%;
+    position: relative;
+    bottom: 30px;
+}
+#back-btn:hover{
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+/* Registration back-btn*/
+#Back{
+    background-color: black;
+    color: white;
+    position:absolute;
+    bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+}
+@media screen and (max-width:700px){
+    .login{
+        width: 50%;
+        height: 63%;
+        position: absolute;
+        left: 22%;
+        padding: 25px;
+        transition: 2s;
+    }
+    #Back{
+        position: absolute;
+        width: fit-content;
+        bottom: 1%;
+    }
+    #Back:hover{
+        background-color: red;
+        cursor: pointer;
+        color: white;
+    }
+    .Registration{
+        width: 60%;
+        height: auto;
+        padding: 25px;
+        position: absolute;
+        left: 17%;
+        top: 10%;
+    }
+    #back-btn{
+        width: fit-content;
+    }
+
+}
